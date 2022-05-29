@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+}
+.Container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.Header {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+  
+    
+
+}
+.headline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(images/capt.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.Header,.headline {
+    padding: 0px 30px 0px;
+}
+
+.headline h2 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #172B4D;
+}
+
+.headline p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #172B4D;
+}
+
+span {
+color: lightgreen;
+}
+
+.contact {
+display: flex;
+justify-content: space-around;
+
+}
+
+.angle {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
