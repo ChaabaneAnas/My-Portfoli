@@ -7,15 +7,17 @@ body {
   flex-direction: column;
   gap: 25px;
 }
-.header nav{
+
+.header nav {
   display: flex;
   align-items: center;
 }
 
-.header a{
-  text-decoration:none;
-  color: lightgreen; 
+.header a {
+  text-decoration: none;
+  color: lightgreen;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
