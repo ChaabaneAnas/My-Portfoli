@@ -116,7 +116,7 @@ ul {
 button {
   padding: 12px;
   background-color: #36b37f;
-  border-radius: 4px;
+  border: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -127,7 +127,7 @@ button {
 }
 
 .card li {
-  background-color: #eee0ee;
+  background-color: #ebf0ee;
   padding: 8px 12px;
 }
 
