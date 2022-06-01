@@ -2,7 +2,7 @@ body {
   display: grid;
   text-align: center;
   grid-template-columns: 375px;
-  grid-template-rows: 80px 1fr 120px 2950px 1550px 1150px;
+  grid-template-rows: 80px 1fr 3150px 1550px 1150px;
   gap: 20px;
 }
 
@@ -86,7 +86,7 @@ ul {
 .works {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 474px);
+  grid-template-rows: 150px repeat(6, 474px);
   gap: 20px;
 }
 
