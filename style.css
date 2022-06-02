@@ -123,10 +123,11 @@ button {
   font-size: 17px;
   line-height: 24px;
   margin: 16px 16px 16px;
-  color: white; 
+  color: white;
 }
+
 button:hover {
-  background-color: #3e8e41
+  background-color: #3e8e41;
 }
 
 button:active {
@@ -223,5 +224,5 @@ input {
 }
 
 .contact-mail {
-  text-decoration:  none;
+  text-decoration: none;
 }
