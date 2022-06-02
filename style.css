@@ -1,11 +1,9 @@
 body {
+  display: grid;
   text-align: center;
-}
-
-.Container {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
+  grid-template-columns: 375px;
+  grid-template-rows: 80px 1fr 3150px 1550px 1000px;
+  gap: 20px;
 }
 
 .header nav {
@@ -24,21 +22,21 @@ body {
   flex: 1;
 }
 
-.section {
+.intro {
   display: flex;
   flex-direction: column;
   gap: 20px;
   background-image: url(images/capt.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .header,
-.section {
+.intro {
   padding: 0 30px 0;
 }
 
-.section h2 {
+h3 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -47,7 +45,7 @@ body {
   color: #172b4d;
 }
 
-.section p {
+.intro p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -65,10 +63,166 @@ ul {
   display: flex;
   justify-content: space-around;
   padding-inline-start: 0;
+  flex-wrap: wrap;
+  width: auto;
 }
 
 .angle {
   margin-top: 15px;
   display: flex;
   justify-content: center;
+}
+
+.Section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #172b4d;
+  width: 327px;
+  height: 79px;
+  margin: 15px auto;
+}
+
+.works {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px repeat(6, 474px);
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px dotted grey;
+}
+
+.about-myself p {
+  color: #42526e;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.a-card ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+button {
+  padding: 12px;
+  background-color: #36b37f;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin: 16px 16px 16px;
+  color: white;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button:active {
+  color: #3e8e41;
+}
+
+.card li {
+  background-color: #ebf0ee;
+  padding: 8px 12px;
+}
+
+.works img {
+  height: 235px;
+  width: 100%;
+}
+
+.about-myself {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr  repeat(3, 352px);
+  gap: 24px;
+}
+
+.a-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebf0ee;
+  justify-content: center;
+  align-items: center;
+}
+
+.a-card h5 {
+  color: #344563;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.card div ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  counter-reset: #3a4a42;
+  margin: 16px 16px 16px;
+}
+
+.a-card li {
+  padding: 12px;
+  background: #fff;
+  color: #36b37e;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.card div p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+  margin: 16px 16px 16px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  box-sizing: border-box;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contact-mail {
+  text-decoration: none;
 }
