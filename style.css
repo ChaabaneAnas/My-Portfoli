@@ -2,7 +2,7 @@ body {
   display: grid;
   text-align: center;
   grid-template-columns: 375px;
-  grid-template-rows: 80px 1fr 3150px 1550px 1150px;
+  grid-template-rows: 80px 1fr 3150px 1550px 1000px;
   gap: 20px;
 }
 
@@ -123,7 +123,14 @@ button {
   font-size: 17px;
   line-height: 24px;
   margin: 16px 16px 16px;
-  color: white;
+  color: white; 
+}
+button:hover {
+  background-color: #3e8e41
+}
+
+button:active {
+  color: #3e8e41;
 }
 
 .card li {
@@ -146,7 +153,7 @@ button {
 .a-card {
   display: flex;
   flex-direction: column;
-  background-color: #ebe0ee;
+  background-color: #ebf0ee;
   justify-content: center;
   align-items: center;
 }
@@ -213,4 +220,8 @@ input {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.contact-mail {
+  text-decoration:  none;
 }
