@@ -58,15 +58,6 @@ span {
   color: lightgreen;
 }
 
-ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  padding-inline-start: 0;
-  flex-wrap: wrap;
-  width: auto;
-}
-
 .angle {
   margin-top: 15px;
   display: flex;
@@ -105,6 +96,7 @@ ul {
 }
 
 .a-card ul {
+  list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,17 +162,21 @@ button:active {
 }
 
 .card div ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+  list-style: none;
+  float: right;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
   counter-reset: #3a4a42;
-  margin: 16px 16px 16px;
+  margin-right: 35px;
+  padding-left:15px;
+}
+
+.card div li {
+  margin: 0 4px 0;
+  float: left;
 }
 
 .a-card li {
