@@ -1,7 +1,9 @@
 body {
+  width: 390px;
+  padding: 20px;
   display: grid;
   text-align: center;
-  grid-template-columns: 375px;
+  grid-template-columns: 1fr;
   grid-template-rows: 80px 1fr 3150px 1550px 1000px;
   gap: 20px;
 }
@@ -209,10 +211,19 @@ form div {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 
 input {
   box-sizing: border-box;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  width: 327px;
+  height: 48px;
+}
+
+textarea {
+  width: 327px;
   border: 1px solid #60c095;
   border-radius: 4px;
 }
@@ -225,4 +236,9 @@ input {
 
 .contact-mail {
   text-decoration: none;
+}
+
+.from-list {
+  width: 250px;
+  align-self: center;
 }
