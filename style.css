@@ -1,5 +1,5 @@
 body {
-  width: 390px;
+  margin: 0 auto 0;
   padding: 20px;
   display: grid;
   text-align: center;
@@ -8,20 +8,30 @@ body {
   gap: 20px;
 }
 
+
+
+#nav {
+display: none;
+}
+
 .header nav {
   display: flex;
   align-items: center;
 }
 
-.header a {
+.header h1 {
   text-decoration: none;
   color: lightgreen;
 }
+
 
 .header {
   display: flex;
   justify-content: space-between;
   flex: 1;
+}
+a {
+  text-decoration: none;
 }
 
 .intro {
@@ -85,7 +95,7 @@ ul {
   margin: 15px auto;
 }
 
-.works {
+#works {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 150px repeat(6, 474px);
@@ -97,7 +107,7 @@ ul {
   border: 1px dotted grey;
 }
 
-.about-myself p {
+#about-myself p {
   color: #42526e;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -141,12 +151,12 @@ button:active {
   padding: 8px 12px;
 }
 
-.works img {
+#works img {
   height: 235px;
   width: 100%;
 }
 
-.about-myself {
+#about-myself {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr  repeat(3, 352px);
@@ -186,7 +196,11 @@ button:active {
 }
 
 .a-card li {
-  padding: 12px;
+  padding: 12px;font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
   background: #fff;
   color: #36b37e;
   border-radius: 8px;
@@ -228,13 +242,13 @@ textarea {
   border-radius: 4px;
 }
 
-.contact {
+#contact {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-.contact-mail {
+#contact-mail {
   text-decoration: none;
 }
 
@@ -243,5 +257,105 @@ textarea {
   align-self: center;
 }
 
+@media screen and (min-width: 720px){
+  body {
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 80vh 1180px 750px 100vh;
+    gap: 30px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header img {
+    display: none;
+  }
+
+  .header h1 {
+    display: none;
+
+  }
+
+  #nav {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  #nav li {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(images/Header-llustration-desktop@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 17%;
+  }
+
+  .welcoming {
+    margin-bottom: 0px;
+  }
+  .intro ul {
+    padding: 0 35%;
+  }
+  #works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 120px 500px 500px;
+    gap: 20px;
+  }
+
+  #works h3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
 
 
+#about-myself {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.about-intro {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  padding: 0 17%;
+}
+
+#contact {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+}
+
+.footer {
+  display: flex;
+  grid-column: 1/span 2 ;
+  grid-row: 2/3;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-mail{
+  display: none;
+}
+
+}
+  
