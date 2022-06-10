@@ -350,4 +350,15 @@ textarea {
   .contact-mail {
     display: none;
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto 0;
+  }
+
+  form button {
+    margin-left: 0;
+  }
 }
