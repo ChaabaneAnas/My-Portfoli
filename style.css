@@ -256,7 +256,7 @@ textarea {
     padding: 0 5%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 80vh 1180px 750px 100vh;
+    grid-template-rows: 10vh 80vh 1180px 750px 80vh;
     gap: 30px;
   }
 
@@ -335,8 +335,8 @@ textarea {
     padding-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 30px;
+    grid-template-rows: 450px 70px;
+    gap: 20px;
   }
 
   .footer {
@@ -345,6 +345,7 @@ textarea {
     grid-row: 2/3;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
 
   .contact-mail {
