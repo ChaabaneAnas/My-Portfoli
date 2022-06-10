@@ -366,4 +366,8 @@ textarea {
   #contact h3 {
     text-align: left;
   }
+
+  .input {
+    width: 550px;
+  }
 }
