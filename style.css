@@ -362,4 +362,8 @@ textarea {
   form button {
     margin-left: 0;
   }
+
+  #contact h3 {
+    text-align: left;
+  }
 }
