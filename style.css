@@ -246,7 +246,3 @@ textarea {
 .a-card :hover {
   background-color: #60c095;
 }
-
-.about-myself.about-hover :hover {
-  transform: scale(1);
-}
