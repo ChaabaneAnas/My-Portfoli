@@ -251,6 +251,123 @@ textarea {
   align-self: center;
 }
 
-.a-card :hover {
-  background-color: #60c095;
+@media screen and (min-width: 720px) {
+  body {
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 80vh 1180px 750px 80vh;
+    gap: 30px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header img {
+    display: none;
+  }
+
+  .header h1 {
+    display: none;
+  }
+
+  #nav {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  #nav li {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(images/Header-llustration-desktop@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 17%;
+  }
+
+  .welcoming {
+    margin-bottom: 0;
+  }
+
+  .intro ul {
+    padding: 0 35%;
+  }
+
+  #works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 120px 500px 500px;
+    gap: 20px;
+  }
+
+  #works h3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  #about-myself {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .about-intro {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    padding: 0 17%;
+  }
+
+  #contact {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px 70px;
+    gap: 20px;
+  }
+
+  .footer {
+    display: flex;
+    grid-column: 1/span 2;
+    grid-row: 2/3;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .contact-mail {
+    display: none;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto 0;
+  }
+
+  form button {
+    margin-left: 0;
+  }
+
+  #contact h3 {
+    text-align: left;
+  }
+
+  .input {
+    width: 550px;
+  }
 }
