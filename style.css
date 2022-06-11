@@ -251,6 +251,20 @@ textarea {
   align-self: center;
 }
 
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.a-card:hover {
+  transform: scale(1,1.05);
+}
+
+.input:hover {
+  transform: translateX(5px);
+}
+
+
+
 @media screen and (min-width: 720px) {
   body {
     padding: 0 5%;
@@ -261,8 +275,23 @@ textarea {
   }
 
   .header {
+    animation: header 500ms ease-in-out;
     display: flex;
     justify-content: center;
+  }
+
+  @keyframes header {
+    0% {
+      transform: translateY(-100%);
+    }
+
+    80% {
+      transform: translateY(20%);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
   }
 
   .header img {
