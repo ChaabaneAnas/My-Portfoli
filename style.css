@@ -256,14 +256,12 @@ textarea {
 }
 
 .a-card:hover {
-  transform: scale(1,1.05);
+  transform: scale(1, 1.05);
 }
 
 .input:hover {
   transform: translateX(5px);
 }
-
-
 
 @media screen and (min-width: 720px) {
   body {
