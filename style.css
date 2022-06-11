@@ -242,6 +242,7 @@ textarea {
   width: 250px;
   align-self: center;
 }
-.test {
 
+.a-card :hover {
+  background-color: #60c095;
 }
