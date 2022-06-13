@@ -1,10 +1,10 @@
 body {
   margin: 0 auto 0;
-  padding: 20px;
+  padding: 5%;
   display: grid;
   text-align: center;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px 1fr 3150px 1550px 1000px;
+  grid-template-rows: 80px 1fr 3150px 1550px 920px;
   gap: 20px;
 }
 
@@ -12,20 +12,19 @@ body {
   display: none;
 }
 
-.header nav {
+#header nav {
   display: flex;
   align-items: center;
 }
 
-.header h1 {
+#header h1 {
   text-decoration: none;
   color: lightgreen;
 }
 
-.header {
+#header {
   display: flex;
   justify-content: space-between;
-  flex: 1;
 }
 
 a {
@@ -41,7 +40,7 @@ a {
   background-size: contain;
 }
 
-.header,
+#header,
 .intro {
   padding: 0 30px 0;
 }
@@ -101,6 +100,7 @@ ul {
 }
 
 .card {
+  width: 100%;
   background-color: white;
   border: 1px dotted grey;
 }
@@ -150,8 +150,7 @@ button:active {
   padding: 8px 12px;
 }
 
-#works img {
-  height: 235px;
+.footer img {
   width: 100%;
 }
 
@@ -248,7 +247,12 @@ textarea {
 
 .from-list {
   width: 250px;
-  align-self: center;
+  margin: 0 auto 25px;
+}
+
+#works img {
+  height: 235px;
+  width: 100%;
 }
 
 .card:hover {
@@ -263,16 +267,16 @@ textarea {
   transform: translateX(5px);
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   body {
     padding: 0 5%;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-template-rows: 10vh 80vh 1180px 750px 80vh;
     gap: 30px;
   }
 
-  .header {
+  #header {
     animation: header 500ms ease-in-out;
     display: flex;
     justify-content: center;
@@ -292,11 +296,11 @@ textarea {
     }
   }
 
-  .header img {
+  #header img {
     display: none;
   }
 
-  .header h1 {
+  #header h1 {
     display: none;
   }
 
@@ -361,7 +365,7 @@ textarea {
   #contact {
     padding-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 450px 70px;
     gap: 20px;
   }
