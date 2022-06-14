@@ -1,24 +1,24 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# My Portfolio
 
-This Modul 1 firs Project
-this Project is about setting up Linters and dealing with them ...
-this Project has 3 Mian including this files(Index.html style.css readme.md) 
+Hello there,
+this project has a desktop version now,
+and a responsive layout
 
 ## Built With
 
 - HTML & CSS
 - No Frameworks Used
 - No Technologies used
-- 
+
 ## Live Demo 
 
   [live Demo Link](https://chaabaneanas.github.io/PortfolioSetup_Mobile-Version-Setup/)
   
 ## Authors
 
-👤 **Author1**
+👤 **ChaabaneAnas**
 
 - GitHub: [@githubhandle](https://github.com/ChaabaneAnas)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
