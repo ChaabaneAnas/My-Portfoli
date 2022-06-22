@@ -24,7 +24,9 @@ body {
 }
 
 #closebtn {
+  margin-top: 10px;
   color: #67798e;
+  font-weight: 100;
 }
 
 .nav.active {
@@ -34,7 +36,7 @@ body {
   top: 0;
   left: 0;
   padding: 0 7%;
-  width: 85%;
+  width: 87%;
   display: flex;
   justify-content: space-between;
   gap: 40px;
@@ -198,7 +200,7 @@ button:active {
   width: 100%;
 }
 
-#about-myself {
+#About {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 1fr  repeat(3, 352px);
@@ -249,7 +251,7 @@ button:active {
   font-family: 'Inter', sans-serif;
 }
 
-#about-myself p {
+#Aboutp {
   color: #42526e;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -279,7 +281,7 @@ textarea {
   border-radius: 4px;
 }
 
-#contact {
+#Contact {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -399,7 +401,7 @@ textarea {
     grid-column-end: 4;
   }
 
-  #about-myself {
+  #About {
     display: grid;
     grid-template-columns: 32% 32% 32%;
     grid-template-rows: 1fr 1fr;
@@ -412,7 +414,7 @@ textarea {
     padding: 0 17%;
   }
 
-  #contact {
+  #Contact {
     padding-top: 30px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -445,7 +447,7 @@ textarea {
     margin-left: 0;
   }
 
-  #contact h3 {
+  #Contact h3 {
     text-align: left;
   }
 
