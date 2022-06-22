@@ -3,7 +3,7 @@ body {
   padding: 5%;
   display: grid;
   text-align: center;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
   grid-template-rows: 80px 1fr 3150px 1550px 920px;
   gap: 20px;
 }
@@ -17,13 +17,13 @@ body {
 }
 
 .nav {
-position: fixed;
+position: absolute;
 left: -100%;
 }
 
 .nav.active { 
   height: 100vh;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   padding: 10% 7%;
@@ -125,7 +125,7 @@ ul {
 
 #works {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
   grid-template-rows: 150px repeat(6, 474px);
   gap: 20px;
 }
@@ -187,12 +187,13 @@ button:active {
 
 #about-myself {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
   grid-template-rows: 1fr  repeat(3, 352px);
-  gap: 24px;
+  gap: 20px;
 }
 
 .a-card {
+  width: 100%;
   display: flex;
   flex-direction: column;
   background-color: #ebf0ee;
@@ -277,8 +278,10 @@ textarea {
 }
 
 .from-list {
-  width: 2flex-direction: row;50px;
-  margin: 0 auto 25px;
+  width: 100%;
+  align-items: center;
+  margin-top: 15px;
+  justify-content:space-around;
 }
 
 #works img {
@@ -386,7 +389,7 @@ textarea {
 
   #about-myself {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 32% 32% 32%;
     grid-template-rows: 1fr 1fr;
     gap: 20px;
   }
@@ -412,6 +415,7 @@ textarea {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 0 40%;
   }
 
   .contact-mail {
