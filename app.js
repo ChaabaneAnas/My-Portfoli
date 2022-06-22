@@ -3,15 +3,15 @@ const navMenu = document.querySelector('.nav');
 const closeBtn = document.querySelector('.closebtn');
 const menuElement = document.querySelector('.navL');
 
-function active(){
+function active() {
   navMenu.classList.add('active');
 }
-function uActive(){
+function uActive() {
   navMenu.classList.remove('active');
 }
 
 humb.addEventListener('click', active);
 
 closeBtn.addEventListener('click', uActive);
-   
+  
 menuElement.addEventListener('click', uActive);
