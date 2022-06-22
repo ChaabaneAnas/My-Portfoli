@@ -11,7 +11,5 @@ function uActive() {
 }
 
 humb.addEventListener('click', active);
-
 closeBtn.addEventListener('click', uActive);
-  
 menuElement.addEventListener('click', uActive);
