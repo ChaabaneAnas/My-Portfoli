@@ -14,34 +14,46 @@ body {
   gap: 20px;
   justify-content: start;
   text-align: left;
-  margin-top: 0;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 .nav {
-position: absolute;
-left: -100%;
+  position: absolute;
+  left: -100%;
 }
 
-.nav.active { 
+#closebtn {
+  color: #67798e;
+}
+
+.nav.active {
+  color: #3a4a42;
   height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
-  padding: 10% 7%;
+  padding: 0 7%;
   width: 85%;
   display: flex;
   justify-content: space-between;
-  gap: 40px; 
-  margin-top: 0px;
+  gap: 40px;
+  margin-top: 0;
   background-color: white;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  background-color: white;
-  color: #3A4A42;
   transition: 0.7s ease-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active a {
+  color: #3a4a42;
 }
 
 #header nav {
@@ -49,18 +61,18 @@ left: -100%;
   align-items: center;
 }
 
-#header h1 {
-  text-decoration: none;
-  color: lightgreen;
+#header h1 a {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #28352f;
 }
 
 #header {
   display: flex;
   justify-content: space-between;
-}
-
-a {
-  text-decoration: none;
 }
 
 .intro {
@@ -222,7 +234,6 @@ button:active {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  counter-reset: #3a4a42;
   margin: 16px 16px 16px;
 }
 
@@ -282,7 +293,7 @@ textarea {
   width: 100%;
   align-items: center;
   margin-top: 15px;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
 #works img {
