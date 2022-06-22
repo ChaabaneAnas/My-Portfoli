@@ -1,7 +1,16 @@
 let humb = document.querySelector(".humb");
 let navMenu = document.querySelector(".nav");
+let close = document.querySelector(".closebtn");
+let menuElement = document.querySelector('.navL')
 
-console.log(humb,navMenu)
 humb.addEventListener('click',function(e){
 navMenu.classList.add('active')
+})
+
+close.addEventListener('click', function(e){
+    navMenu.classList.remove('active')
+})
+
+menuElement.addEventListener('click', function(e){
+    navMenu.classList.remove('active')
 })

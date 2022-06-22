@@ -21,18 +21,13 @@ position: fixed;
 left: -100%;
 }
 
-.closebtn{
-  position: absolute;
-  top: 
-}
-
 .nav.active { 
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
   padding: 10% 7%;
-  width: 100%;
+  width: 85%;
   display: flex;
   justify-content: space-between;
   gap: 40px; 
@@ -45,6 +40,7 @@ left: -100%;
   line-height: 44px;
   background-color: white;
   color: #3A4A42;
+  transition: 1s ease-in-out;
 }
 
 #header nav {
@@ -346,6 +342,7 @@ textarea {
     position: inherit;
     left: 0;
     flex-direction: row;
+    height: 172px;
   }
 
   .navL li {
