@@ -14,6 +14,7 @@ body {
   gap: 20px;
   justify-content: start;
   text-align: left;
+  margin-top: 0;
 }
 
 .nav {
@@ -40,7 +41,7 @@ left: -100%;
   line-height: 44px;
   background-color: white;
   color: #3A4A42;
-  transition: 1s ease-in-out;
+  transition: 0.7s ease-out;
 }
 
 #header nav {
