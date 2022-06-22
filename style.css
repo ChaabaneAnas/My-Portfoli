@@ -8,8 +8,43 @@ body {
   gap: 20px;
 }
 
-#nav {
-  display: none;
+.navL {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: start;
+  text-align: left;
+}
+
+.nav {
+position: fixed;
+left: -100%;
+}
+
+.closebtn{
+  position: absolute;
+  top: 
+}
+
+.nav.active { 
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10% 7%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; 
+  margin-top: 0px;
+  background-color: white;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  background-color: white;
+  color: #3A4A42;
 }
 
 #header nav {
@@ -246,7 +281,7 @@ textarea {
 }
 
 .from-list {
-  width: 250px;
+  width: 2flex-direction: row;50px;
   margin: 0 auto 25px;
 }
 
@@ -304,13 +339,16 @@ textarea {
     display: none;
   }
 
-  #nav {
+  .navL {
     display: flex;
     gap: 20px;
     align-items: flex-start;
+    position: inherit;
+    left: 0;
+    flex-direction: row;
   }
 
-  #nav li {
+  .navL li {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -396,6 +434,10 @@ textarea {
 
   #contact h3 {
     text-align: left;
+  }
+
+  .closebtn {
+    display: none;
   }
 
   .input {
