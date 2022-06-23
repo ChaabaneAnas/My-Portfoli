@@ -2,13 +2,11 @@
 
 # My Portfolio
 
-Hello there,
-this project has a desktop version now,
-and a responsive layout
+Hello this project has a toggle menu now,
 
 ## Built With
 
-- HTML & CSS
+- HTML-CSS & Javascript
 - No Frameworks Used
 - No Technologies used
 
