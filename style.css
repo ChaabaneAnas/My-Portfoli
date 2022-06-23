@@ -23,10 +23,15 @@ body {
   left: -100%;
 }
 
+.humb {
+  cursor: pointer;
+}
+
 #closebtn {
   margin-top: 10px;
   color: #67798e;
   font-weight: 100;
+  cursor: pointer;
 }
 
 .nav.active {
