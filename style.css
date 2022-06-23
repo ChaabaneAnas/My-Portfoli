@@ -40,8 +40,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 0 5%;
-  width: 93%;
+  padding: 0 7%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   gap: 40px;
@@ -319,6 +319,26 @@ textarea {
 
 .input:hover {
   transform: translateX(5px);
+}
+
+.overlay  {
+  
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.container {
+ opacity: 1;
+ width: 400px;
+ background-color: grey;
+ border:solid black;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+
 }
 
 @media screen and (min-width: 768px) {
