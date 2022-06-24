@@ -14,19 +14,20 @@ humb.addEventListener('click', active);
 closeBtn.addEventListener('click', uActive);
 menuElement.addEventListener('click', uActive);
 
-const win = document.querySelector('.container')
-const overlay = document.querySelector('.overlay')
-const buttons = document.querySelectorAll('.card button')
+//popupWindow
+
+const win = document.querySelector('.container');
+const overlay = document.querySelector('.overlay');
+const buttons = document.querySelectorAll('.card button');
 const data = {
   mImage: 'src="images/SnapshootPortfolio.png" alt="" class="img"',
-  dImage:'src="images/SnapshootdPortfolio.png"',
+  dImage: 'src="images/SnapshootdPortfolio.png"',
   header: 'Keeping track of hundreds of components',
-  techs: ['Ruby on Rails','css','javascript'],
+  techs: ['Ruby on Rails', 'css', 'javascript'],
   live: 'href = "https://chaabaneanas.github.io/PortfolioSetup_Mobile-Version-Setup/"',
   source: 'href = "#"',
   descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-}
-
+};
 
 win.innerHTML = (`
 <div class="imgs">
@@ -44,37 +45,30 @@ win.innerHTML = (`
 <div class="buttons">
 <a class="live" ${data.live}>See Live <img src="/images/seeliveicon.png" alt=""></a>
 <a class="source" ${data.source}>See Source <img src="/images/Vector.png" alt=""></a>
-</div>`)
+</div>`);
 
-
-
-const clsbtn = document.querySelector('#clsbtn')
-
-
-buttons.forEach (button => button.addEventListener('click', () => {
-  popIt(win);
-}));
-
-
-
+const clsbtn = document.querySelector('#clsbtn');
 clsbtn.addEventListener('click', (clsbtn) => clsIt(clsbtn));
-
 function popIt (win) {
   if (win == null) return
   win.classList.add('active');
   overlay.classList.add('active');
 }
 
-function clsIt (clsbtn) {
+function clsIt(clsbtn) {
   win.classList.remove('active');
   overlay.classList.remove('active');
 }
- 
-//form validation//
- 
-const error = document.querySelector('.errors')
-const email = document.querySelector('#email')
-const form = document.querySelector('#form')
+
+buttons.forEach((button) => button.addEventListener('click', () => {
+  popIt(win);
+}));
+
+//form validation// 
+
+const error = document.querySelector('.errors');
+const email = document.querySelector('#email');
+const form = document.querySelector('#form');
 form.addEventListener('submit', (e) => {
   let errorMessage = '';
   const emailLower = email.value.toLowerCase();
@@ -83,10 +77,7 @@ form.addEventListener('submit', (e) => {
     error.innerText = errorMessage;
     e.preventDefault();
   }
-  console.log(errorMessage)
 });
-
-
 
 
 

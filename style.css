@@ -156,6 +156,18 @@ ul {
   border: 1px dotted grey;
 }
 
+.container p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: #344563;
+  width: 311px;
+  text-align: left;
+}
+
 .card div p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -229,6 +241,17 @@ button:active {
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 20px;
+}
+
+.container ul {
+  width: 246px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  height: 32px;
 }
 
 .card div ul {
@@ -321,9 +344,9 @@ textarea {
   transform: translateX(5px);
 }
 
-/*popup window section*/
+/* popup window section */
 
-.container{
+.container {
   padding: 16px;
   display: flex;
   gap: 12px;
@@ -341,8 +364,6 @@ textarea {
   max-width: 343px;
   align-items: flex-start;
 }
-
-
 
 .container .mimg {
   width: 311px;
@@ -363,61 +384,35 @@ textarea {
   bottom: 205px;
   left: 128px;
   cursor: pointer;
-  color: #ffffff;
+  color: #fff;
 }
 
 .container.active {
   transform: translate(-50%, -50%) scale(1);
 }
 
-.container ul {
-  width: 246px;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 8px;
-  width: 246px;
-  height: 32px;
-  gap: 8px;
-}
-
 .container li {
-  background: #EBF0EE;
+  background: #ebf0ee;
   border-radius: 4px;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 8px 12px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
 }
 
-.container p {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 0;
-  color: #344563;
-  width: 311px;
-  text-align: left;
-  width: 311px;
-}
-
 .container h3 {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
   margin: 0;
-  color: #172B4D;
+  color: #172b4d;
   width: 259px;
   text-align: left;
 }
@@ -429,12 +424,6 @@ textarea {
   width: 311px;
 }
 
-.buttons a {
-  display: flex;
-  justify-content: center;
-  width: 145px;
-}
-
 .buttons .live,
 .buttons .source {
   margin: 0;
@@ -443,7 +432,6 @@ textarea {
   align-items: flex-start;
   padding: 12px 16px;
   gap: 12px;
-  padding: 12px;
   background-color: #36b37f;
   border: none;
   font-family: 'Inter', sans-serif;
@@ -451,7 +439,6 @@ textarea {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  
   height: 27px;
   color: white;
 }
@@ -482,10 +469,9 @@ textarea {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
- }
+}
 
 @media screen and (min-width: 768px) {
-  
   body {
     padding: 0 5%;
     display: grid;
@@ -516,6 +502,12 @@ textarea {
 
   #header img {
     display: none;
+  }
+
+  .buttons a {
+    display: flex;
+    justify-content: center;
+    width: 145px;
   }
 
   #header h1 {
@@ -567,6 +559,11 @@ textarea {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 120px 500px 500px;
     gap: 20px;
+  }
+
+  .container h3 {
+    order: 2;
+    width: 560px;
   }
 
   #works h3 {
@@ -632,8 +629,8 @@ textarea {
   .input {
     width: 100%;
   }
- 
-   .container{
+
+  .container {
     max-width: 880px;
     padding: 22px;
     display: flex;
@@ -662,38 +659,29 @@ textarea {
 
   .container .dimg {
     display: block;
-    width:872px ;
+    width: 872px;
     border-radius: 8px;
     height: 616px;
   }
 
-  .buttons a {
-    width: auto;
-  }
-  
   .container p {
     width: 876px;
     order: 4;
-  }
-
-  .container h3 {
-    order: 2;
-    width: 560px;
   }
 
   .container .buttons {
     order: 2;
     width: 350px;
     position: absolute;
-    left: 615px;
-    bottom: 210px;
+    left: 535px;
+    bottom: 237px;
   }
 
   .container ul {
     order: 3;
   }
 
-  #clsbtn  {
+  #clsbtn {
     position: relative;
     transform: scale(4, 4);
     cursor: pointer;
@@ -702,6 +690,4 @@ textarea {
     bottom: 663px;
     left: 423px;
   }
-
-
 }
