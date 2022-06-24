@@ -47,11 +47,7 @@ win.innerHTML = (`
 <a class="source" ${data.source}>See Source <img src="/images/Vector.png" alt=""></a>
 </div>`);
 
-buttons.forEach((button) => button.addEventListener('click', () => {
-  popIt(win);
-}));
-clsbtn.addEventListener('click', (clsbtn) => clsIt(clsbtn));
-function clsIt(clsbtn) {
+function clsIt() {
   win.classList.remove('active');
   overlay.classList.remove('active');
 }
@@ -60,6 +56,10 @@ function popIt(win) {
   win.classList.add('active');
   overlay.classList.add('active');
 }
+buttons.forEach((button) => button.addEventListener('click', () => {
+  popIt(win);
+}));
+clsbtn.addEventListener('click', (clsbtn) => clsIt(clsbtn));
 const error = document.querySelector('.errors');
 const email = document.querySelector('#email');
 const form = document.querySelector('#form');
