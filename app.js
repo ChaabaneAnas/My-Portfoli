@@ -62,8 +62,6 @@ function popIt(win) {
 buttons.forEach((button) => button.addEventListener('click', () => {
   popIt(win);
 }));
-
-// form validation 
 const error = document.querySelector('.errors');
 const email = document.querySelector('#email');
 const form = document.querySelector('#form');
@@ -76,10 +74,3 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 });
-
-
-
-
-  
-
-
