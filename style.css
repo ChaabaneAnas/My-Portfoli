@@ -322,7 +322,6 @@ textarea {
 }
 
 .container{
-  width: 343px;
   padding: 16px;
   display: flex;
   gap: 12px;
@@ -337,6 +336,18 @@ textarea {
   border: 1px solid #efe1e6;
   border-radius: 16px;
   z-index: 10;
+}
+
+.container .imgs {
+  width: 311px;
+  height: 220px;
+}
+
+.clsbtn {
+  position: relative;
+  width: 22px;
+  top: -188px;
+  left: -40px;
 }
 
 .container.active {
