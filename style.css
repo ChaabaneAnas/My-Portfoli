@@ -321,6 +321,8 @@ textarea {
   transform: translateX(5px);
 }
 
+/*popup window section*/
+
 .container{
   padding: 16px;
   display: flex;
@@ -338,12 +340,12 @@ textarea {
   z-index: 10;
 }
 
-.container .imgs {
+.container .mimg {
   width: 311px;
   height: 220px;
 }
 
-#clsbtn  {
+#clsbtn {
   position: relative;
   width: 22px;
   bottom: 205px;
@@ -598,4 +600,83 @@ textarea {
   .input {
     width: 100%;
   }
+
+   /*popup window section */
+   
+   .container{
+    width: 880px;
+    padding: 22px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transition: 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(0);
+    background-color: white;
+    border: 1px solid #efe1e6;
+    border-radius: 16px;
+    z-index: 10;
+  }
+
+  .container .imgs {
+    width: 872px
+  }
+
+  .container .mimg {
+    display: none;
+  }
+
+  .container .dimg {
+    width:872px ;
+    border-radius: 8px;
+    height: 616px;
+  }
+
+  .container p {
+    width: 876px;
+    order: 4;
+  }
+
+  .container h3 {
+    order: 2;
+    width: 560px;
+  }
+
+  .container .buttons {
+    order: 2;
+    width: 350px;
+    position: absolute;
+    left: 615px;
+    bottom: 210px;
+  }
+
+  .container ul {
+    order: 3;
+  }
+
+  #clsbtn  {
+    position: relative;
+    transform: scale(4, 4);
+    cursor: pointer;
+    color: red;
+  }
+
+  /*validation*/
+   .errors {
+    display: flex;
+    justify-content: start;
+    color: purple;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  
+   }
+
+   
+
 }
