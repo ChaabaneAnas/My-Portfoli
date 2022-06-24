@@ -21,6 +21,8 @@ const data = {
   Image: 'src="images/SnapshootPortfolio.png" alt="" class="img"',
   header: 'Keeping track of hundreds of components',
   techs: ['Ruby on Rails','css','javascript'],
+  live: 'href = "https://chaabaneanas.github.io/PortfolioSetup_Mobile-Version-Setup/"',
+  source: 'href = "#"',
   descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 }
 
@@ -39,8 +41,8 @@ win.innerHTML = (`
 </ul>
 <p class="description">${data.descrip}</p>
 <div class="buttons">
-<button class="live">See Live <img src="/images/seeliveicon.png" alt=""></button>
-<button class="source">See Source <img src="/images/Vector.png" alt=""></button>
+<a class="live" ${data.live}>See Live <img src="/images/seeliveicon.png" alt=""></a>
+<a class="source" ${data.source}>See Source <img src="/images/Vector.png" alt=""></a>
 </div>`)
 
 
