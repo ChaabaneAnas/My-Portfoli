@@ -338,11 +338,23 @@ textarea {
   border: 1px solid #efe1e6;
   border-radius: 16px;
   z-index: 10;
+  max-width: 343px;
+  align-items: flex-start;
 }
+
+
 
 .container .mimg {
   width: 311px;
   height: 220px;
+}
+
+.container .imgs {
+  width: 311px;
+}
+
+.container .dimg {
+  display: none;
 }
 
 #clsbtn {
@@ -395,6 +407,7 @@ textarea {
   color: #344563;
   width: 311px;
   text-align: left;
+  width: 311px;
 }
 
 .container h3 {
@@ -413,6 +426,13 @@ textarea {
   display: flex;
   gap: 12px;
   align-items: center;
+  width: 311px;
+}
+
+.buttons a {
+  display: flex;
+  justify-content: center;
+  width: 145px;
 }
 
 .buttons .live,
@@ -453,7 +473,19 @@ textarea {
   pointer-events: all;
 }
 
+.errors {
+  display: flex;
+  justify-content: start;
+  color: purple;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+ }
+
 @media screen and (min-width: 768px) {
+  
   body {
     padding: 0 5%;
     display: grid;
@@ -600,11 +632,9 @@ textarea {
   .input {
     width: 100%;
   }
-
-   /*popup window section */
-   
+ 
    .container{
-    width: 880px;
+    max-width: 880px;
     padding: 22px;
     display: flex;
     gap: 12px;
@@ -622,7 +652,8 @@ textarea {
   }
 
   .container .imgs {
-    width: 872px
+    width: 872px;
+    margin-top: 37px;
   }
 
   .container .mimg {
@@ -630,11 +661,16 @@ textarea {
   }
 
   .container .dimg {
+    display: block;
     width:872px ;
     border-radius: 8px;
     height: 616px;
   }
 
+  .buttons a {
+    width: auto;
+  }
+  
   .container p {
     width: 876px;
     order: 4;
@@ -661,22 +697,11 @@ textarea {
     position: relative;
     transform: scale(4, 4);
     cursor: pointer;
-    color: red;
+    color: black;
+    font-size: 2rem;
+    bottom: 663px;
+    left: 423px;
   }
 
-  /*validation*/
-   .errors {
-    display: flex;
-    justify-content: start;
-    color: purple;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-  
-   }
-
-   
 
 }
