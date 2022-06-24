@@ -14,7 +14,7 @@ humb.addEventListener('click', active);
 closeBtn.addEventListener('click', uActive);
 menuElement.addEventListener('click', uActive);
 
-//popupWindow
+// popupWindow
 
 const win = document.querySelector('.container');
 const overlay = document.querySelector('.overlay');
@@ -48,24 +48,22 @@ win.innerHTML = (`
 </div>`);
 
 const clsbtn = document.querySelector('#clsbtn');
-clsbtn.addEventListener('click', (clsbtn) => clsIt(clsbtn));
-function popIt (win) {
-  if (win == null) return
-  win.classList.add('active');
-  overlay.classList.add('active');
-}
-
 function clsIt(clsbtn) {
   win.classList.remove('active');
   overlay.classList.remove('active');
+}
+clsbtn.addEventListener('click', (clsbtn) => clsIt(clsbtn));
+function popIt(win) {
+  if (win == null) return;
+  win.classList.add('active');
+  overlay.classList.add('active');
 }
 
 buttons.forEach((button) => button.addEventListener('click', () => {
   popIt(win);
 }));
 
-//form validation// 
-
+// form validation 
 const error = document.querySelector('.errors');
 const email = document.querySelector('#email');
 const form = document.querySelector('#form');
