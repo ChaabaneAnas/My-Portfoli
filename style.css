@@ -343,11 +343,13 @@ textarea {
   height: 220px;
 }
 
-.clsbtn {
+#clsbtn  {
   position: relative;
   width: 22px;
-  top: -188px;
-  left: -40px;
+  bottom: 205px;
+  left: 128px;
+  cursor: pointer;
+  color: #ffffff;
 }
 
 .container.active {

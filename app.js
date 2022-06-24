@@ -29,7 +29,7 @@ console.log(win)
 win.innerHTML = (`
 <div class="imgs">
 <img class="img" ${data.Image}>
-<span class="clsbtn">X</span>
+<a id = "clsbtn" href="#">&times;</a>
 </div>
 <h3 class="title">${data.header}</h3>
 <ul class="tech">
@@ -45,16 +45,17 @@ win.innerHTML = (`
 
 
 
-const clsbtn = document.querySelector('.clsbtn')
+const clsbtn = document.querySelector('#clsbtn')
 
 
 buttons.forEach (button => button.addEventListener('click', () => {
   popIt(win);
 }));
 
+console.log(clsbtn)
 
 
-clsbtn.addEventListener('clik', () => clsIt(win));
+clsbtn.addEventListener('click', (clsbtn) => clsIt(clsbtn));
 
 function popIt (win) {
   if (win == null) return
@@ -62,8 +63,7 @@ function popIt (win) {
   overlay.classList.add('active');
 }
 
-function clsIt (win) {
-  if (win == null) return
+function clsIt (clsbtn) {
   win.classList.remove('active');
   overlay.classList.remove('active');
 }
