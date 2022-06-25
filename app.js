@@ -56,10 +56,10 @@ function popIt(win) {
   win.classList.add('active');
   overlay.classList.add('active');
 }
+clsbtn.addEventListener('click', (clsbtn) => clsIt(clsbtn));
 buttons.forEach((button) => button.addEventListener('click', () => {
   popIt(win);
 }));
-clsbtn.addEventListener('click', (clsbtn) => clsIt(clsbtn));
 const error = document.querySelector('.errors');
 const email = document.querySelector('#email');
 const form = document.querySelector('#form');
