@@ -15,7 +15,6 @@ closeBtn.addEventListener('click', uActive);
 menuElement.addEventListener('click', uActive);
 
 // popupWindow
-const clsbtn = document.querySelector('#clsbtn');
 const win = document.querySelector('.container');
 const overlay = document.querySelector('.overlay');
 const buttons = document.querySelectorAll('.card button');
@@ -46,6 +45,7 @@ win.innerHTML = (`
 <a class="live" ${data.live}>See Live <img src="/images/seeliveicon.png" alt=""></a>
 <a class="source" ${data.source}>See Source <img src="/images/Vector.png" alt=""></a>
 </div>`);
+const clsbtn = document.querySelector('#clsbtn');
 
 function clsIt() {
   win.classList.remove('active');
@@ -56,6 +56,7 @@ function popIt(win) {
   win.classList.add('active');
   overlay.classList.add('active');
 }
+clsbtn.addEventListener('click', (clsbtn) => clsIt(clsbtn));
 buttons.forEach((button) => button.addEventListener('click', () => {
   popIt(win);
 }));
