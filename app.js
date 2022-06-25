@@ -151,7 +151,7 @@ const projectnBtn = document.querySelectorAll('.card button');
 projectnBtn.forEach((btn) => btn.addEventListener('click', () => {
   projectPopup();
 }));
-document.querySelector('#clsbtn').addEventListener('click', (clsbtn) => clsIt(clsbtn))
+document.querySelector('#clsbtn').addEventListener('click', (clsbtn) => clsIt(clsbtn));
 
 const form = document.getElementById('form');
 const [username, email, message] = form.elements;
