@@ -16,10 +16,10 @@ menuElement.addEventListener('click', uActive);
 
 // popupWindow
 const data = [{
-  cTitle:'Multi-Post Stories Gain+Glory',
-  cImg:'src="images/ImgPlaholder.png" alt="ImagePholder"',
-  cTechnologies:['Ruby on rails','css','javaScript','html'],
-  cbutton :'See Project',
+  cTitle: 'Multi-Post Stories Gain+Glory',
+  cImg: 'src="images/ImgPlaholder.png" alt="ImagePholder"',
+  cTechnologies: ['Ruby on rails', 'css', 'javaScript', 'html'],
+  cbutton: 'See Project',
   mImage: 'src="images/SnapshootPortfolio.png" alt="" class="img"',
   dImage: 'src="images/SnapshootdPortfolio.png"',
   header: 'Keeping track of hundreds of components',
@@ -29,10 +29,10 @@ const data = [{
   descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 },
 {
-  cTitle:'Multi-Post Stories Gain+Glory',
-  cImg:'src="images/ImgPlaholder.png" alt="ImagePholder"',
-  cTechnologies:['Ruby on rails','css','javaScript','html'],
-  cbutton :'See Project',
+  cTitle: 'Multi-Post Stories Gain+Glory',
+  cImg: 'src="images/ImgPlaholder.png" alt="ImagePholder"',
+  cTechnologies: ['Ruby on rails', 'css', 'javaScript', 'html'],
+  cbutton: 'See Project',
   mImage: 'src="images/SnapshootPortfolio.png" alt="" class="img"',
   dImage: 'src="images/SnapshootdPortfolio.png"',
   header: 'Keeping track of hundreds of components',
@@ -42,10 +42,10 @@ const data = [{
   descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 },
 {
-  cTitle:'Multi-Post Stories Gain+Glory',
-  cImg:'src="images/ImgPlaholder.png" alt="ImagePholder"',
-  cTechnologies:['Ruby on rails','css','javaScript','html'],
-  cbutton :'See Project',
+  cTitle: 'Multi-Post Stories Gain+Glory',
+  cImg: 'src="images/ImgPlaholder.png" alt="ImagePholder"',
+  cTechnologies: ['Ruby on rails', 'css', 'javaScript', 'html'],
+  cbutton: 'See Project',
   mImage: 'src="images/SnapshootPortfolio.png" alt="" class="img"',
   dImage: 'src="images/SnapshootdPortfolio.png"',
   header: 'Keeping track of hundreds of components',
@@ -55,10 +55,10 @@ const data = [{
   descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 },
 {
-  cTitle:'Multi-Post Stories Gain+Glory',
-  cImg:'src="images/ImgPlaholder.png" alt="ImagePholder"',
-  cTechnologies:['Ruby on rails','css','javaScript','html'],
-  cbutton :'See Project',
+  cTitle: 'Multi-Post Stories Gain+Glory',
+  cImg: 'src="images/ImgPlaholder.png" alt="ImagePholder"',
+  cTechnologies: ['Ruby on rails', 'css', 'javaScript', 'html'],
+  cbutton: 'See Project',
   mImage: 'src="images/SnapshootPortfolio.png" alt="" class="img"',
   dImage: 'src="images/SnapshootdPortfolio.png"',
   header: 'Keeping track of hundreds of components',
@@ -68,10 +68,10 @@ const data = [{
   descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 },
 {
-  cTitle:'Multi-Post Stories Gain+Glory',
-  cImg:'src="images/ImgPlaholder.png" alt="ImagePholder"',
-  cTechnologies:['Ruby on rails','css','javaScript','html'],
-  cbutton :'See Project',
+  cTitle: 'Multi-Post Stories Gain+Glory',
+  cImg: 'src="images/ImgPlaholder.png" alt="ImagePholder"',
+  cTechnologies: ['Ruby on rails', 'css', 'javaScript', 'html'],
+  cbutton: 'See Project',
   mImage: 'src="images/SnapshootPortfolio.png" alt="" class="img"',
   dImage: 'src="images/SnapshootdPortfolio.png"',
   header: 'Keeping track of hundreds of components',
@@ -81,10 +81,10 @@ const data = [{
   descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 },
 {
-  cTitle:'Multi-Post Stories Gain+Glory',
-  cImg:'src="images/ImgPlaholder.png" alt="ImagePholder"',
-  cTechnologies:['Ruby on rails','css','javaScript','html'],
-  cbutton :'See Project',
+  cTitle: 'Multi-Post Stories Gain+Glory',
+  cImg: 'src="images/ImgPlaholder.png" alt="ImagePholder"',
+  cTechnologies: ['Ruby on rails', 'css', 'javaScript', 'html'],
+  cbutton: 'See Project',
   mImage: 'src="images/SnapshootPortfolio.png" alt="" class="img"',
   dImage: 'src="images/SnapshootdPortfolio.png"',
   header: 'Keeping track of hundreds of components',
@@ -92,10 +92,10 @@ const data = [{
   live: 'href = "https://chaabaneanas.github.io/PortfolioSetup_Mobile-Version-Setup/"',
   source: 'href = "#"',
   descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-}]
+}];
 
 const portfolios = document.querySelector('#works');
-data.forEach((data, id) => {
+data.forEach((data) => {
   const innerProject = document.createElement('div');
   innerProject.classList.add('card');
   innerProject.innerHTML = (`
@@ -113,8 +113,8 @@ data.forEach((data, id) => {
     `);
   portfolios.appendChild(innerProject);
 });
-const body = document.querySelector('body')
-const popup = document.querySelector('.overlay')
+const body = document.querySelector('body');
+const popup = document.querySelector('.overlay');
 const popupCont = document.createElement('div');
 popupCont.innerHTML = (`
             <div class="imgs">
@@ -133,7 +133,7 @@ popupCont.innerHTML = (`
           <a class="live" href="https://chaabaneanas.github.io/PortfolioSetup_Mobile-Version-Setup/">See Live <img src="/images/seeliveicon.png" alt=""></a>
           <a class="source" href="#">See Source <img src="/images/Vector.png" alt=""></a>
           </div>
-  `)
+  `);
 popupCont.classList.add('container');
 body.appendChild(popupCont);
 
