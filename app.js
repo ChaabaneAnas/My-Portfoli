@@ -117,7 +117,7 @@ const body = document.querySelector('body')
 const popup = document.querySelector('.overlay')
 const popupCont = document.createElement('div');
 popupCont.innerHTML = (`
-            <div class="imgs">
+     <div class="imgs">
             <img class="mimg" src="images/SnapshootPortfolio.png" alt="">
             <img class="dimg" src="images/SnapshootdPortfolio.png">
             <a id="clsbtn" href="#">×</a>
@@ -129,7 +129,7 @@ popupCont.innerHTML = (`
               <li> JavScript</li>
             </ul>
             <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
-          <div class="buttons">
+       <div class="buttons">
           <a class="live" href="https://chaabaneanas.github.io/PortfolioSetup_Mobile-Version-Setup/">See Live <img src="/images/seeliveicon.png" alt=""></a>
           <a class="source" href="#">See Source <img src="/images/Vector.png" alt=""></a>
           </div>
@@ -152,5 +152,3 @@ projectnBtn.forEach((btn) => btn.addEventListener('click', () => {
   projectPopup();
 }));
 document.querySelector('#clsbtn').addEventListener('click', (clsbtn) => clsIt(clsbtn));
-
-console.log(projectnBtn);
