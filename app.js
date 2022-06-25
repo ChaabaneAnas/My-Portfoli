@@ -151,6 +151,36 @@ const projectnBtn = document.querySelectorAll('.card button');
 projectnBtn.forEach((btn) => btn.addEventListener('click', () => {
   projectPopup();
 }));
-document.querySelector('#clsbtn').addEventListener('click', (clsbtn) => clsIt(clsbtn));
+document.querySelector('#clsbtn').addEventListener('click', (clsbtn) => clsIt(clsbtn))
 
-console.log(projectnBtn);
+const form = document.getElementById('form');
+const [username, email, message] = form.elements;
+
+if (!localStorage.getItem('form-data')) {
+  const data = { usernameValue: '', emailValue: '', messageValue: '' };
+  localStorage.setItem('form-data', JSON.stringify(data));
+}
+
+const setDataInBrowser = (element, elementValue) => {
+  element.addEventListener('change', () => {
+    const retrivedData = JSON.parse(localStorage.getItem('form-data'));
+    retrivedData[elementValue] = element.value;
+    localStorage.setItem('form-data', JSON.stringify(retrivedData));
+  });
+};
+
+const setDataInFormFields = (element, elementValue) => {
+  element.value = elementValue;
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  // set form fields data in the local storage of the browser.
+  setDataInBrowser(username, 'usernameValue');
+  setDataInBrowser(email, 'emailValue');
+  setDataInBrowser(message, 'messageValue');
+  // load form previous data from storage and set them in form field
+  const data = JSON.parse(localStorage.getItem('form-data'));
+  setDataInFormFields(username, data.usernameValue);
+  setDataInFormFields(email, data.emailValue);
+  setDataInFormFields(message, data.messageValue);
+});
