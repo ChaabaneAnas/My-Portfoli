@@ -2,7 +2,9 @@
 
 # My Portfolio
 
-Hello this project has a toggle menu now,
+Full-Stack Software Developer with a love for React and Ruby on rails.
+ I do Martial and Play Video Games in my spare time.
+ Open to new opportunities
 
 ## Built With
 
