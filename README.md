@@ -5,6 +5,11 @@
 Full-Stack Software Developer with a love for React and Ruby on rails.
  I do Martial and Play Video Games in my spare time.
  Open to new opportunities
+ 
+## Overview
+ 
+ ![image](https://user-images.githubusercontent.com/99597333/192145470-f1e6b3c7-41df-4cc3-8f1c-0a13f17a13bc.png)
+
 
 ## Built With
 
