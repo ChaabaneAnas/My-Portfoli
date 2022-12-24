@@ -16,56 +16,56 @@ menuElement.addEventListener('click', uActive);
 
 // popupWindow
 const data = [{
-  cTitle: 'Multi-Post Stories Gain+Glory',
-  cImg: 'src="images/ImgPlaholder.png" alt="ImagePholder"',
-  cTechnologies: ['Ruby on rails', 'css', 'javaScript', 'html'],
+  cTitle: 'Movie Streaming website PranMovies',
+  cImg: 'src="images/pranMovies.png" alt="ImagePholder"',
+  cTechnologies: ['React', 'css', 'javaScript', 'html'],
   cbutton: 'See Project',
-  mImage: 'src="images/SnapshootPortfolio.png" alt="" class="img"',
-  dImage: 'src="images/SnapshootdPortfolio.png"',
-  header: 'Keeping track of hundreds of components',
-  techs: ['Ruby on Rails', 'css', 'javascript'],
-  live: 'href = "https://chaabaneanas.github.io/PortfolioSetup_Mobile-Version-Setup/"',
-  source: 'href = "#"',
-  descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  mImage: 'src="images/PranMoviesPopup.png" alt="" class="img"',
+  dImage: 'src="images/PranMoviesPopup.png"',
+  header: 'See Your Favorite Movie',
+  techs: ['Webpack ', 'Jest', 'Redux'],
+  live: 'href = "https://promzzykoncepts.github.io/PranMovies/"',
+  source: 'href = "https://github.com/ChaabaneAnas/PranMovies"',
+  descrip: 'A attractive Movie Streaming web app that displays movie from an Api and lets a user add reviews, likes and comment,'
 },
 {
-  cTitle: 'Multi-Post Stories Gain+Glory',
-  cImg: 'src="images/ImgPlaholder.png" alt="ImagePholder"',
-  cTechnologies: ['Ruby on rails', 'css', 'javaScript', 'html'],
+  cTitle: 'Leading Design Global Summit',
+  cImg: 'src="images/GlobalSummit.png" alt="ImagePholder"',
+  cTechnologies: [ 'css', 'javaScript', 'html'],
   cbutton: 'See Project',
-  mImage: 'src="images/SnapshootPortfolio.png" alt="" class="img"',
-  dImage: 'src="images/SnapshootdPortfolio.png"',
-  header: 'Keeping track of hundreds of components',
+  mImage: 'src="images/GlobalSummit.png" alt="" class="img"',
+  dImage: 'src="images/GlobalSummit.png"',
+  header: 'Present Your event to the world',
   techs: ['Ruby on Rails', 'css', 'javascript'],
-  live: 'href = "https://chaabaneanas.github.io/PortfolioSetup_Mobile-Version-Setup/"',
-  source: 'href = "#"',
-  descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  live: 'href = "https://chaabaneanas.github.io/Global-Summit-/"',
+  source: 'href = "https://github.com/ChaabaneAnas/Global-Summit-"',
+  descrip: 'A attractive Movie Streaming web app that displays movie from an Api and lets a user add reviews, likes and comment,',
 },
 {
-  cTitle: 'Multi-Post Stories Gain+Glory',
-  cImg: 'src="images/ImgPlaholder.png" alt="ImagePholder"',
-  cTechnologies: ['Ruby on rails', 'css', 'javaScript', 'html'],
+  cTitle: 'interractive React Books Store',
+  cImg: 'src="images/bookStore.png" alt="ImagePholder"',
+  cTechnologies: ['react','Redux', 'css', 'javaScript', 'html'],
   cbutton: 'See Project',
   mImage: 'src="images/SnapshootPortfolio.png" alt="" class="img"',
-  dImage: 'src="images/SnapshootdPortfolio.png"',
-  header: 'Keeping track of hundreds of components',
-  techs: ['Ruby on Rails', 'css', 'javascript'],
-  live: 'href = "https://chaabaneanas.github.io/PortfolioSetup_Mobile-Version-Setup/"',
-  source: 'href = "#"',
-  descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  dImage: 'src="images/bookStore.png"',
+  header: 'Add remove and track your progress',
+  techs: ['React ','Redux', 'css', 'javascript'],
+  live: 'href = "https://redux-react-book-store.netlify.app/"',
+  source: 'href = "https://github.com/ChaabaneAnas/BookStore"',
+  descrip: 'A simple interactive web app, that allow users to add remove ,edit books and update their progress',
 },
 {
-  cTitle: 'Multi-Post Stories Gain+Glory',
-  cImg: 'src="images/ImgPlaholder.png" alt="ImagePholder"',
+  cTitle: 'Web Calculator MAth Magician',
+  cImg: 'src="images/MathMagician.png" alt="ImagePholder"',
   cTechnologies: ['Ruby on rails', 'css', 'javaScript', 'html'],
   cbutton: 'See Project',
-  mImage: 'src="images/SnapshootPortfolio.png" alt="" class="img"',
-  dImage: 'src="images/SnapshootdPortfolio.png"',
-  header: 'Keeping track of hundreds of components',
-  techs: ['Ruby on Rails', 'css', 'javascript'],
-  live: 'href = "https://chaabaneanas.github.io/PortfolioSetup_Mobile-Version-Setup/"',
-  source: 'href = "#"',
-  descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  mImage: 'src="images/MathMagician.png" alt="" class="img"',
+  dImage: 'src="images/MathMagician.png"',
+  header: 'Performe Your math operation on the web',
+  techs: ['React','Redux', 'css', 'javascript'],
+  live: 'href = "https://6325ae11fcbd02398dda82b3--math-magicians-react001.netlify.app/"',
+  source: 'href = "https://github.com/ChaabaneAnas/Math-Magicians"',
+  descrip: 'A Simple yet powerful web app, that allow the user to perform Simple math operation right on your browser,how is the design?',
 },
 {
   cTitle: 'Multi-Post Stories Gain+Glory',
@@ -95,7 +95,7 @@ const data = [{
 }];
 
 const portfolios = document.querySelector('#works');
-data.forEach((data) => {
+data.forEach((data,id) => {
   const innerProject = document.createElement('div');
   innerProject.classList.add('card');
   innerProject.innerHTML = (`
@@ -108,7 +108,7 @@ data.forEach((data) => {
                <li>${data.cTechnologies[2]}</li>
                <li>${data.cTechnologies[3]}</li>
             </ul>
-            <button type="button">${data.cbutton}</button>
+            <button id="${id}" type="button">${data.cbutton}</button>
          </div>
     `);
   portfolios.appendChild(innerProject);
@@ -118,20 +118,20 @@ const popup = document.querySelector('.overlay');
 const popupCont = document.createElement('div');
 popupCont.innerHTML = (`
             <div class="imgs">
-            <img class="mimg" src="images/SnapshootPortfolio.png" alt="">
-            <img class="dimg" src="images/SnapshootdPortfolio.png">
+            <img ${data[e.target.id].dImage}>
+            <img ${data[e.target.id].dImage}">
             <a id="clsbtn" href="#">×</a>
             </div>
-            <h3 class="title">Keeping track of hundreds of components</h3>
+            <h3 class="title">${data[e.target.id].header}</h3>
             <ul class="tech">
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li> JavScript</li>
+              <li>${data[e.target.id].techs[0]}</li>
+              <li>${data[e.target.id].techs[1]}</li>
+              <li> ${data[e.target.id].techs[2]}</li>
             </ul>
-            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+            <p ${data[e.target.id].descrip}</p>
           <div class="buttons">
-          <a class="live" href="https://chaabaneanas.github.io/PortfolioSetup_Mobile-Version-Setup/">See Live <img src="/images/seeliveicon.png" alt=""></a>
-          <a class="source" href="#">See Source <img src="/images/Vector.png" alt=""></a>
+          <a class="live" ${data[e.target.id].live}">See Live <img src="/images/seeliveicon.png" alt=""></a>
+          <a class="source" href=" ${data[e.target.id].source}">See Source <img src="/images/Vector.png" alt=""></a>
           </div>
   `);
 popupCont.classList.add('container');
@@ -148,8 +148,8 @@ function clsIt() {
 }
 
 const projectnBtn = document.querySelectorAll('.card button');
-projectnBtn.forEach((btn) => btn.addEventListener('click', () => {
-  projectPopup();
+projectnBtn.forEach((btn) => btn.addEventListener('click', (e) => {
+  projectPopup(e);
 }));
 document.querySelector('#clsbtn').addEventListener('click', (clsbtn) => clsIt(clsbtn));
 
