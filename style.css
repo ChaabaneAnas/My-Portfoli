@@ -434,7 +434,6 @@ textarea {
   padding: 0.5rem 0;
 }
 
-
 .see_project {
   position: absolute;
   bottom: 0;
@@ -448,7 +447,7 @@ textarea {
   flex-direction: row;
   align-items: flex-start;
   gap: 0.7rem;
-  padding: 0.7rem .9rem;
+  padding: 0.7rem 0.9rem;
   background-color: #36b37f;
   border: none;
   font-family: 'Inter', sans-serif;
@@ -461,7 +460,7 @@ textarea {
 
 .Resume {
   margin: 1rem;
-  padding: 0.9rem .9rem;
+  padding: 0.9rem 0.9rem;
   background-color: #36b37f;
   border: none;
   font-family: 'Inter', sans-serif;
@@ -599,7 +598,6 @@ textarea {
     width: 48%;
   }
 
-
   .buttons {
     position: static;
     display: flex;
@@ -716,7 +714,6 @@ textarea {
     position: absolute;
     cursor: pointer;
     color: black;
-    font-size: 2rem;
     top: 1%;
     left: 96%;
   }
