@@ -94,7 +94,7 @@ class Popup {
     <a class="clsbtn" href="#">×</a>
     <div class="imgs">
       <img class="dimg" ${data[id].dImage}>
-      <img class="mimg ${data[id].mImage}">
+      <img class="mimg" ${data[id].mImage}>
     </div>
     <div class="card-header">
       <h3 class="title">${data[id].header}</h3>
