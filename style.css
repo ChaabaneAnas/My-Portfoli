@@ -109,9 +109,15 @@ h3 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
   color: #172b4d;
+  padding: 0;
+}
+
+.welcoming {
+  margin-bottom: 0;
+  padding: 0;
 }
 
 span {
@@ -317,7 +323,12 @@ textarea {
 }
 
 #contact-mail {
-  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #172b4d;
+  margin-bottom: 1rem;
 }
 
 .from-list {
@@ -580,6 +591,17 @@ textarea {
 
   .welcoming {
     margin-bottom: 0;
+    padding: 0 26%;
+  }
+
+  .intro p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: #172b4d;
+    padding: 0 19%;
   }
 
   .intro ul {
@@ -642,7 +664,7 @@ textarea {
     padding: 0 40%;
   }
 
-  .contact-mail {
+  #contact-mail {
     display: none;
   }
 
@@ -717,4 +739,5 @@ textarea {
     top: 1%;
     left: 96%;
   }
+
 }
