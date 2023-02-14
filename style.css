@@ -1,5 +1,4 @@
 body {
-  margin: 0 auto 0;
   padding: 5%;
   display: grid;
   text-align: center;
@@ -8,6 +7,7 @@ body {
   gap: 20px;
   overflow: scroll;
   max-height: 100vh;
+  box-sizing: border-box;
 }
 
 .navL {
@@ -16,12 +16,10 @@ body {
   gap: 20px;
   justify-content: start;
   text-align: left;
-  margin-top: 40px;
-  margin-left: 20px;
 }
 
 .nav {
-  position: absolute;
+  position: fixed;
   left: -100%;
 }
 
@@ -111,9 +109,15 @@ h3 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
   color: #172b4d;
+  padding: 0;
+}
+
+.welcoming {
+  margin-bottom: 0;
+  padding: 0;
 }
 
 span {
@@ -153,12 +157,13 @@ ul {
 }
 
 .card {
+  position: relative;
   width: 100%;
   background-color: white;
   border: 1px dotted grey;
 }
 
-.container p {
+.modal p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -168,6 +173,7 @@ ul {
   color: #344563;
   width: 311px;
   text-align: left;
+  margin-bottom: 3rem;
 }
 
 .card div p {
@@ -222,7 +228,7 @@ button:active {
 #About {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 1fr  repeat(3, 352px);
+  grid-template-rows: 1fr repeat(3, 352px);
   gap: 20px;
 }
 
@@ -245,15 +251,13 @@ button:active {
   margin-bottom: 20px;
 }
 
-.container ul {
-  width: 246px;
-  margin: 0;
+.modal ul {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  justify-content: start;
   padding: 0;
-  gap: 8px;
-  height: 32px;
+  gap: 3%;
+  margin: 0;
 }
 
 .card div ul {
@@ -319,7 +323,12 @@ textarea {
 }
 
 #contact-mail {
-  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #172b4d;
+  margin-bottom: 1rem;
 }
 
 .from-list {
@@ -346,9 +355,15 @@ textarea {
   transform: translateX(5px);
 }
 
+.card-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 /* popup window section */
 
-.container {
+.modal {
   padding: 16px;
   display: flex;
   gap: 12px;
@@ -367,33 +382,34 @@ textarea {
   align-items: flex-start;
 }
 
-.container .mimg {
+.modal .mimg {
+  margin-top: 1.5rem;
   width: 311px;
   height: 220px;
 }
 
-.container .imgs {
+.modal .imgs {
   width: 311px;
 }
 
-.container .dimg {
+.modal .dimg {
   display: none;
 }
 
-#clsbtn {
-  position: relative;
-  width: 22px;
-  bottom: 205px;
-  left: 128px;
+.clsbtn {
+  position: absolute;
+  font-size: 1.3rem;
+  top: 0.5%;
+  left: 94%;
   cursor: pointer;
   color: #fff;
 }
 
-.container.active {
-  transform: translate(-50%, -50%) scale(1);
+.modal.active {
+  transform: translate(-50%, 50%) scale(1);
 }
 
-.container li {
+.modal li {
   background: #ebf0ee;
   border-radius: 4px;
   display: flex;
@@ -407,7 +423,7 @@ textarea {
   line-height: 16px;
 }
 
-.container h3 {
+.modal h3 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -420,10 +436,19 @@ textarea {
 }
 
 .buttons {
+  position: absolute;
+  bottom: 0;
   display: flex;
-  gap: 12px;
-  align-items: center;
-  width: 311px;
+  gap: 4%;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+.see_project {
+  position: absolute;
+  bottom: 0;
+  right: 29.5%;
 }
 
 .buttons .live,
@@ -432,8 +457,8 @@ textarea {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 12px 16px;
-  gap: 12px;
+  gap: 0.7rem;
+  padding: 0.7rem 0.9rem;
   background-color: #36b37f;
   border: none;
   font-family: 'Inter', sans-serif;
@@ -441,7 +466,19 @@ textarea {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  height: 27px;
+  color: white;
+}
+
+.Resume {
+  margin: 1rem;
+  padding: 0.9rem 0.9rem;
+  background-color: #36b37f;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
   color: white;
 }
 
@@ -478,14 +515,17 @@ textarea {
     padding: 0 5%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10vh 80vh 1180px 750px 80vh;
+    grid-template-rows: 100vh 1180px 750px 80vh;
     gap: 30px;
   }
 
   #header {
+    position: absolute;
     animation: header 500ms ease-in-out;
     display: flex;
     justify-content: center;
+    width: 95%;
+    left: 0;
   }
 
   @keyframes header {
@@ -518,7 +558,7 @@ textarea {
 
   .navL {
     display: flex;
-    gap: 20px;
+    gap: 1.2rem;
     align-items: flex-start;
     position: inherit;
     left: 0;
@@ -546,10 +586,22 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 17%;
+    padding: 3%;
   }
 
   .welcoming {
     margin-bottom: 0;
+    padding: 0 26%;
+  }
+
+  .intro p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: #172b4d;
+    padding: 0 19%;
   }
 
   .intro ul {
@@ -563,9 +615,17 @@ textarea {
     gap: 20px;
   }
 
-  .container h3 {
-    order: 2;
-    width: 560px;
+  .modal h3 {
+    margin: auto 0;
+    width: 48%;
+  }
+
+  .buttons {
+    position: static;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    width: 40%;
   }
 
   #works h3 {
@@ -604,7 +664,7 @@ textarea {
     padding: 0 40%;
   }
 
-  .contact-mail {
+  #contact-mail {
     display: none;
   }
 
@@ -632,64 +692,51 @@ textarea {
     width: 100%;
   }
 
-  .container {
+  .modal {
     max-width: 880px;
     padding: 22px;
     display: flex;
-    gap: 12px;
+    gap: 1rem;
     flex-direction: column;
     justify-content: flex-start;
     position: absolute;
-    top: 200%;
+    top: 50%;
     left: 50%;
     transition: 300ms ease-in-out;
-    transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, 50%) scale(0);
     background-color: white;
     border: 1px solid #efe1e6;
     border-radius: 16px;
     z-index: 10;
   }
 
-  .container .imgs {
+  .modal .imgs {
     width: 872px;
     margin-top: 37px;
   }
 
-  .container .mimg {
+  .modal .mimg {
     display: none;
   }
 
-  .container .dimg {
+  .modal .dimg {
     display: block;
-    width: 872px;
+    width: 100%;
     border-radius: 8px;
     height: 616px;
+    margin-bottom: 1.3rem;
   }
 
-  .container p {
-    width: 876px;
-    order: 4;
+  .modal p {
+    width: 100%;
   }
 
-  .container .buttons {
-    order: 2;
-    width: 350px;
+  .clsbtn {
+    font-size: 2rem;
     position: absolute;
-    left: 535px;
-    bottom: 237px;
-  }
-
-  .container ul {
-    order: 3;
-  }
-
-  #clsbtn {
-    position: relative;
-    transform: scale(4, 4);
     cursor: pointer;
     color: black;
-    font-size: 2rem;
-    bottom: 663px;
-    left: 423px;
+    top: 1%;
+    left: 96%;
   }
 }
