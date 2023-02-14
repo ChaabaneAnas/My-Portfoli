@@ -448,8 +448,10 @@ textarea {
 
 .see_project {
   position: absolute;
-  bottom: 0;
-  right: 29.5%;
+  bottom: 3%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: 0;
 }
 
 .buttons .live,
