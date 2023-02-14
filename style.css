@@ -292,6 +292,7 @@ button:active {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
+  margin-bottom: 2rem;
 }
 
 form div {
@@ -470,7 +471,7 @@ textarea {
 }
 
 .Resume {
-  margin: 1rem;
+  margin: 5rem 0;
   padding: 0.9rem 0.9rem;
   background-color: #36b37f;
   border: none;
