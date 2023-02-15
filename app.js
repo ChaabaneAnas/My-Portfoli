@@ -1,11 +1,11 @@
 const data = [
   {
     cTitle: "Leading Design Global Summit",
-    cImg: 'src="images/GlobalSummit.png" alt="ImagePholder"',
+    cImg: 'src="./images/GlobalSummit.png" alt="ImagePholder"',
     cTechnologies: ["css", "javaScript", "html"],
     cbutton: "See Project",
-    mImage: 'src="images/GlobalSummit.png" alt="" ',
-    dImage: 'src="images/GlobalSummit.png"',
+    mImage: 'src="./images/GlobalSummit.png" alt="" ',
+    dImage: 'src="./images/GlobalSummit.png"',
     header: "Present Your event to the world",
     techs: ["Html", "css", "javascript"],
     live: "https://chaabaneanas.github.io/Global-Summit-/",
@@ -15,11 +15,11 @@ const data = [
   },
   {
     cTitle: "Movie Streaming website PranMovies",
-    cImg: 'src="images/pranMovies.png" alt="ImagePholder"',
+    cImg: 'src="./images/pranMovies.png" alt="ImagePholder"',
     cTechnologies: ["React", "css", "javaScript", "html"],
     cbutton: "See Project",
-    mImage: 'src="images/PranMoviesPopup.png"  ',
-    dImage: 'src="images/PranMoviesPopup.png"',
+    mImage: 'src="./images/PranMoviesPopup.png"  ',
+    dImage: 'src="./images/PranMoviesPopup.png"',
     header: "See Your Favorite Movie",
     techs: ["react", "Webpack ", "Jest", "Redux"],
     live: "https://promzzykoncepts.github.io/PranMovies/",
@@ -29,11 +29,11 @@ const data = [
   },
   {
     cTitle: "Web Calculator MAth Magician",
-    cImg: 'src="images/MathMagician.png" alt="ImagePholder"',
+    cImg: 'src="./images/MathMagician.png" alt="ImagePholder"',
     cTechnologies: ["css", "javaScript", "html"],
     cbutton: "See Project",
-    mImage: 'src="images/MathMagician.png" alt=""',
-    dImage: 'src="images/MathMagician.png"',
+    mImage: 'src="./images/MathMagician.png" alt=""',
+    dImage: 'src="./images/MathMagician.png"',
     header: "Performe Your math operation on the web",
     techs: ["React", "Redux", "css", "javascript"],
     live: "https://6325ae11fcbd02398dda82b3--math-magicians-react001.netlify.app/",
@@ -43,11 +43,11 @@ const data = [
   },
   {
     cTitle: "React Country Metrics",
-    cImg: 'src="images/CountryMetrics(1).png" alt="ImagePholder"',
+    cImg: 'src="./images/CountryMetrics(1).png" alt="ImagePholder"',
     cTechnologies: ["react", "Redux", "css", "javaScript"],
     cbutton: "See Project",
-    mImage: 'src="images/CountryMetricsDektop.png" alt=""',
-    dImage: 'src="images/CountryMetrics.png"',
+    mImage: 'src="./images/CountryMetricsDektop.png" alt=""',
+    dImage: 'src="./images/CountryMetrics.png"',
     header: "All the informaions you need about any country",
     techs: ["React ", "Redux", "css", "javascript"],
     live: "https://countrymertics.netlify.app/",
@@ -57,11 +57,11 @@ const data = [
   },
   {
     cTitle: "Rails MoneyCast App",
-    cImg: 'src="images/Moneycasttrimed.png" alt="ImagePholder"',
+    cImg: 'src="./images/Moneycasttrimed.png" alt="ImagePholder"',
     cTechnologies: ["Ruby on rails", "css", "javaScript", "html"],
     cbutton: "See Project",
-    mImage: 'src="images/Moneycasttrimed.png" alt=""',
-    dImage: 'src="images/Moneycasttrimed.png"',
+    mImage: 'src="./images/Moneycasttrimed.png" alt=""',
+    dImage: 'src="./images/Moneycasttrimed.png"',
     header: "Keeping track of hundreds of components",
     techs: ["Ruby on Rails", "css", "javascript"],
     live: "https://moneycast.onrender.com/",
@@ -71,11 +71,11 @@ const data = [
   },
   {
     cTitle: "Trek Bike Rental",
-    cImg: 'src="images/BikeRental.png" alt="ImagePholder"',
+    cImg: 'src="./images/BikeRental.png" alt="ImagePholder"',
     cTechnologies: ["Ruby on rails", "React", "Redux", "css"],
     cbutton: "See Project",
-    mImage: 'src="images/BikeRental.png" alt=""',
-    dImage: 'src="images/BikeRental.png" alt=""',
+    mImage: 'src="./images/BikeRental.png" alt=""',
+    dImage: 'src="./images/BikeRental.png" alt=""',
     header: "Keeping track of hundreds of components",
     techs: ["Ruby on Rails", "css", "javascript"],
     live: "https://deploy-preview-31--rentbikes.netlify.app/",
@@ -100,8 +100,8 @@ class Popup {
     <div class="card-header">
       <h3 class="title">${data[id].header}</h3>
       <div class="buttons">
-        <a class="live" href = ${data[id].live}>See Live <img src="/images/seeliveicon.png" alt=""></a>
-        <a class="source" href = ${data[id].source}>See Source <img src="/images/Vector.png" alt=""></a>
+        <a class="live" href = ${data[id].live}>See Live <img src="./images/seeliveicon.png" alt=""></a>
+        <a class="source" href = ${data[id].source}>See Source <img src="./images/Vector.png" alt=""></a>
       </div>
     </div>
     <ul class="tech">
