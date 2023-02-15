@@ -11,7 +11,7 @@ const data = [
     live: "https://chaabaneanas.github.io/Global-Summit-/",
     source: "https://github.com/ChaabaneAnas/Global-Summit-",
     descrip:
-      "Leading Design Global Submit is a simple Landing page that provides all informations about the event, the app was built with html css and vanilla javascript it still has som cool animations and an outstanding layout  ",
+      "The Leading Design Global Submit is a minimalist yet informative landing page that serves as a one-stop source of information about the event. The application was developed using HTML, CSS, and vanilla JavaScript, incorporating several engaging animations and a remarkable layout.  ",
   },
   {
     cTitle: "Movie Streaming website PranMovies",
@@ -25,7 +25,7 @@ const data = [
     live: "https://promzzykoncepts.github.io/PranMovies/",
     source: "https://github.com/ChaabaneAnas/PranMovies",
     descrip:
-      "A attractive Movie Streaming web app that displays movies from an Api and lets a user add reviews, likes and comment, the app is built using only vanilla javascript html and css, it also has and outstanding layout and a cool some cool functilaity's",
+      "The application is an appealing web-based platform for movie streaming, featuring a vast collection of movies obtained through an API. In addition to the streaming capabilities, the app allows users to add reviews, likes, and comments. It was developed solely using vanilla javascript, HTML, and CSS, resulting in an exceptional layout and a range of outstanding functionalities.",
   },
   {
     cTitle: "Web Calculator MAth Magician",
@@ -39,7 +39,7 @@ const data = [
     live: "https://6325ae11fcbd02398dda82b3--math-magicians-react001.netlify.app/",
     source: "https://github.com/ChaabaneAnas/Math-Magicians",
     descrip:
-      "A Simple yet powerful web app, that allow the user to perform Simple math operation right on your browser,the app is simple to accsess use and has a pretty layout ,",
+      "A Simple yet powerful web app that allows the user to perform Simple math operations right on their browser, the app is simple to access and has a pretty layout. ",
   },
   {
     cTitle: "React Country Metrics",
@@ -53,7 +53,7 @@ const data = [
     live: "https://countrymertics.netlify.app/",
     source: "https://github.com/ChaabaneAnas/Country-Metrics",
     descrip:
-      "A Simple mobile web app that provides all the  information's about every country in the world, and could be filtered by Continent,this app is built using React/Redux so it is hyper fast and slik ",
+      "A Simple mobile web app that provides all the information about every country in the world and can be filtered by Continent, this app is built using React/Redux, so it is hyper-fast and slik.",
   },
   {
     cTitle: "Rails MoneyCast App",
@@ -67,7 +67,7 @@ const data = [
     live: "https://moneycast.onrender.com/",
     source: "https://github.com/ChaabaneAnas/Budget_App",
     descrip:
-      "MoneyCast is fullstack mobile web app that helps the user keeps track of his spendings, it's built using rail a framework built in top of ruby the app is easy to use and has a simple ui and capable of performing all CRUD operations please live a star if you like it",
+      "MoneyCast is a full-stack mobile web app that helps the user keeps track of his spending; it's built using rail, a framework created at the top of ruby. The app is easy to use and has a simple UI, and is capable of performing all CRUD operations. Please live a star if you like it.",
   },
   {
     cTitle: "Trek Bike Rental",
@@ -81,7 +81,7 @@ const data = [
     live: "https://deploy-preview-31--rentbikes.netlify.app/",
     source: "https://github.com/ChaabaneAnas/Bike-rental",
     descrip:
-      "Trek Bike Rental is a full stack web application that let's the use Creat delete and reserve it uses react/redux as front end frameworks and a RoR build api for the server side the web site is also has multiple features such as night mode Color switching swiper and a attractive layout.",
+      "Trek Bike Rental is a full-stack web application that lets the user Creat delete, and reserve. It uses react/redux as a front-end framework, and an RoR builds API for the server side. The website also has multiple features, such as a night mode Color switching swiper and an attractive layout.",
   },
 ];
 
