@@ -226,7 +226,24 @@ button {
 }
 
 button:hover {
-  background-color: #3e8e41;
+  box-shadow: 3px solid black;
+  color: #3e8e41;
+  border: .5px solid #3e8e41;
+  background-color: white;
+  transition: 500ms ease-in-out;
+}
+
+.Resume:hover {
+  box-shadow: 3px solid black;
+  color: #3e8e41;
+  border: .5px solid #3e8e41;
+  background-color: white;
+  transition: 500ms ease-in-out;
+}
+
+a img:hover {
+  transform: scale(1.5);
+  transition: 200ms ease-in-out;
 }
 
 button:active {
@@ -366,7 +383,7 @@ textarea {
 }
 
 .a-card:hover {
-  transform: scale(1, 1.05);
+  transform: scale(1, 1.1);
 }
 
 .input:hover {
