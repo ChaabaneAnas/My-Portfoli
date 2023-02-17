@@ -100,8 +100,8 @@ class Popup {
     <div class="card-header">
       <h3 class="title">${data[id].header}</h3>
       <div class="buttons">
-        <a class="live" href = ${data[id].live}>See Live <img src="./images/seeliveicon.png" alt=""></a>
-        <a class="source" href = ${data[id].source}>See Source <img src="./images/Vector.png" alt=""></a>
+        <a class="live" href = ${data[id].live} target="_blank">See Live <img src="./images/seeliveicon.png" alt=""></a>
+        <a class="source" href = ${data[id].source} target="_blank">See Source <img src="./images/Vector.png" alt=""></a>
       </div>
     </div>
     <ul class="tech">
