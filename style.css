@@ -369,6 +369,7 @@ textarea {
 }
 
 #works img {
+  object-fit: contain;
   height: 235px;
   width: 100%;
 }

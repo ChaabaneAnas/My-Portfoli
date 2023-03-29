@@ -2,12 +2,12 @@ const data = [
   {
     cTitle: 'Leading Design Global Summit',
     cImg: 'src="./images/GlobalSummit.png" alt="ImagePholder"',
-    cTechnologies: ['css', 'javaScript', 'html'],
+    cTechnologies: ['Css', 'javaScript', 'html'],
     cbutton: 'See Project',
     mImage: 'src="./images/GlobalSummit.png" alt="" ',
     dImage: 'src="./images/GlobalSummit.png"',
     header: 'Present Your event to the world',
-    techs: ['Html', 'css', 'javascript'],
+    techs: ['Html', 'Css', 'javascript'],
     live: 'https://chaabaneanas.github.io/Global-Summit-/',
     source: 'https://github.com/ChaabaneAnas/Global-Summit-',
     descrip:
@@ -16,7 +16,7 @@ const data = [
   {
     cTitle: 'Movie Streaming website PranMovies',
     cImg: 'src="./images/pranMovies.png" alt="ImagePholder"',
-    cTechnologies: ['React', 'css', 'javaScript', 'html'],
+    cTechnologies: ['React', 'Css', 'javaScript', 'html'],
     cbutton: 'See Project',
     mImage: 'src="./images/PranMoviesPopup.png"  ',
     dImage: 'src="./images/PranMoviesPopup.png"',
@@ -28,28 +28,28 @@ const data = [
       'The application is an appealing web-based platform for movie streaming, featuring a vast collection of movies obtained through an API. In addition to the streaming capabilities, the app allows users to add reviews, likes, and comments. It was developed solely using vanilla javascript, HTML, and CSS, resulting in an exceptional layout and a range of outstanding functionalities.',
   },
   {
-    cTitle: 'Web Calculator MAth Magician',
-    cImg: 'src="./images/MathMagician.png" alt="ImagePholder"',
-    cTechnologies: ['css', 'javaScript', 'html'],
+    cTitle: 'Fiche-de Linterlocuteur ',
+    cImg: 'src="./images/Enr_agri.png" alt="ImagePholder"',
+    cTechnologies: ['TypeScript', 'React', 'Css'],
     cbutton: 'See Project',
-    mImage: 'src="./images/MathMagician.png" alt=""',
-    dImage: 'src="./images/MathMagician.png"',
-    header: 'Performe Your math operation on the web',
-    techs: ['React', 'Redux', 'css', 'javascript'],
-    live: 'https://6325ae11fcbd02398dda82b3--math-magicians-react001.netlify.app/',
-    source: 'https://github.com/ChaabaneAnas/Math-Magicians',
+    mImage: 'src="./images/Enr_agri.png" alt=""',
+    dImage: 'src="./images/Enr_agri.png"',
+    header: 'Dynamic and interactive client interface',
+    techs: ['TypeScript', 'React', 'Css'],
+    live: 'enr-agri.netlify.app/',
+    source: 'https://github.com/ChaabaneAnas/Fiche-de-L-interlocuteur',
     descrip:
-      'A Simple yet powerful web app that allows the user to perform Simple math operations right on their browser, the app is simple to access and has a pretty layout. ',
+      'Fiche-de-L-interlocuteur is a take-home assignment from a local company, it is a Custom Component based SPA and has serval features such as DoubleClick to edit and conditional graph rendering, the app is built to be scalable and Feature proof and ready to be integrated into a real word project',
   },
   {
     cTitle: 'React Country Metrics',
     cImg: 'src="./images/CountryMetrics.png" alt="ImagePholder"',
-    cTechnologies: ['react', 'Redux', 'css', 'javaScript'],
+    cTechnologies: ['react', 'Redux', 'Css', 'javaScript'],
     cbutton: 'See Project',
     mImage: 'src="./images/CountryMetrics.png" alt=""',
     dImage: 'src="./images/CountryMetrics.png"',
     header: 'All the informaions you need about any country',
-    techs: ['React ', 'Redux', 'css', 'javascript'],
+    techs: ['React ', 'Redux', 'Css', 'javascript'],
     live: 'https://countrymertics.netlify.app/',
     source: 'https://github.com/ChaabaneAnas/Country-Metrics',
     descrip:
@@ -58,12 +58,12 @@ const data = [
   {
     cTitle: 'Rails MoneyCast App',
     cImg: 'src="./images/Moneycast.png" alt="ImagePholder"',
-    cTechnologies: ['Ruby on rails', 'css', 'javaScript', 'html'],
+    cTechnologies: ['Ruby on rails', 'Css', 'javaScript', 'html'],
     cbutton: 'See Project',
     mImage: 'src="./images/Moneycast.png" alt=""',
     dImage: 'src="./images/Moneycast.png"',
     header: 'Keeping track of hundreds of components',
-    techs: ['Ruby on Rails', 'css', 'javascript'],
+    techs: ['Ruby on Rails', 'Css', 'javascript'],
     live: 'https://moneycast.onrender.com/',
     source: 'https://github.com/ChaabaneAnas/Budget_App',
     descrip:
@@ -72,12 +72,12 @@ const data = [
   {
     cTitle: 'Trek Bike Rental',
     cImg: 'src="./images/BikeRental.png" alt="ImagePholder"',
-    cTechnologies: ['Ruby on rails', 'React', 'Redux', 'css'],
+    cTechnologies: ['Ruby on rails', 'React', 'Redux', 'Css'],
     cbutton: 'See Project',
     mImage: 'src="./images/BikeRental.png" alt=""',
     dImage: 'src="./images/BikeRental.png" alt=""',
     header: 'Keeping track of hundreds of components',
-    techs: ['Ruby on Rails', 'css', 'javascript'],
+    techs: ['Ruby on Rails', 'Css', 'javascript'],
     live: 'https://deploy-preview-31--rentbikes.netlify.app/',
     source: 'https://github.com/ChaabaneAnas/Bike-rental',
     descrip:
@@ -147,12 +147,11 @@ data.forEach((data, id) => {
          <div>
             <p>${data.cTitle}</p>
             <ul>
-               <li>${data.cTechnologies[0]}</li>
-               <li>${data.cTechnologies[1]}</li>
-               <li>${data.cTechnologies[2]}</li>
-               <li>${data.cTechnologies[3]}</li>
+              ${data.cTechnologies.map((item) => `<li> ${item} </li>`).join('')}
             </ul>
-            <button class= "see_project"id="${id}" type="button">${data.cbutton}</button>
+            <button class= "see_project"id="${id}" type="button">${
+  data.cbutton
+}</button>
          </div>
     `;
   portfolios.appendChild(innerProject);
